@@ -1,0 +1,7 @@
+.header_1 {
+    background-color: blue;
+}
+.navigation {
+    position: sticky;
+    left: 60px
+}
