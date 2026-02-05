@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo-link">
+        <a href="#" class="logo">
             <img src="./img/logo.svg" alt="Shop logo" class="logo">
         </a>
-        <ul class="navigation">
+        <ul class="nav_menu">
             <li>
                 <a href="">Main</a>
             </li>
@@ -24,44 +27,44 @@
         </ul>
     </header>
     <section>
-        <h1>Markup achievement</h1>
-        <p>The harder you work for something, the greater you’ll feel when you achieve it.</p>
-        <button>Learn More</button>
-        <img src="./img/image.png" alt="Image">
+        <h1 class="main_title">Markup achievement</h1>
+        <p class="text">The harder you work for something, the greater you’ll feel when you achieve it.</p>
+        <button class="button">Learn More</button>
+        <img class="main_img" src="./img/image.png" alt="Image">
     </section>
-    <section>
-        <h2>Rates</h2>
-        <p>Failure will never overtake me if my determination to succeed is strong enough.</p>
-        <table>
+    <section class="rates-section">
+        <h2 class="title">Rates</h2>
+        <p class="text">Failure will never overtake me if my determination to succeed is strong enough.</p>
+        <table class="table">
             <tr>
-                <th>Features</th>
-                <th>Standart</th>
-                <th>Plus</th>
-                <th>PRO</th>
+                <th class="table-subtitle">Features</th>
+                <th class="table-title">Standart</th>
+                <th class="table-title">Plus</th>
+                <th class="table-title">PRO</th>
             </tr>
             <tr>
-                <th>Theory</th>
+                <th class="table-subtitle">Theory</th>
                 <td><img src="./img/Check.svg" alt="true"></td>
                 <td><img src="./img/Check.svg" alt="true"></td>
                 <td><img src="./img/Check.svg" alt="true"></td>
             </tr>
             <tr>
-                <th>Practice</th>
+                <th class="table-subtitle">Practice</th>
                 <td><img src="./img/Close.svg" alt="false"></td>
                 <td><img src="./img/Check.svg" alt="true"></td>
                 <td><img src="./img/Check.svg" alt="true"></td>
             </tr>
             <tr>
-                <th>Code Review</th>
+                <th class="table-subtitle">Code Review</th>
                 <td><img src="./img/Close.svg" alt="false"></td>
                 <td><img src="./img/Close.svg" alt="false"></td>
                 <td><img src="./img/Check.svg" alt="true"></td>
             </tr>
             <tr>
-                <th><a href="">How Question?</a></th>
-                <td><button>Get Now</button></td>
-                <td><button>Get Now</button></td>
-                <td><button>Get Now</button></td>
+                <th class="table-subtitle"><a href="" class="table_link">How Question?</a></th>
+                <td><button class="table_button">Get Now</button></td>
+                <td><button class="table_button">Get Now</button></td>
+                <td><button class="table_button">Get Now</button></td>
             </tr>
         </table>
     </section>
@@ -115,8 +118,8 @@
         <input type="submit" value="Create Account">
         </form>
     </section>
-    <footer>
-        <small>Copyright © 2023. All rights reserved.</small>
+    <footer class="footer">
+        <small class="copy">Copyright © 2023. All rights reserved.</small>
         <!-- <span>Copyright © 2023. All rights reserved.</span> -->
     </footer>
 </body>
